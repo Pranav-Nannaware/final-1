@@ -1,0 +1,479 @@
+/**
+ * Campus Connect Theme
+ * This file contains all global styling elements for the Campus Connect application
+ */
+
+:root {
+  --gradient-1: #FC466B;
+  --gradient-2: #3F5EFB;
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --text-dark: #333;
+  --text-light: #FFF;
+  --accent: #3F5EFB;
+  --error: #FC466B;
+  --success: #28a745;
+  --warning: #ffc107;
+  --info: #17a2b8;
+}
+
+/* Base Elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, var(--gradient-1), var(--gradient-2));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: var(--text-dark);
+  position: relative;
+  overflow-x: hidden;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Background Effects */
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  mix-blend-mode: color-dodge;
+  filter: blur(120px);
+  border-radius: 100%;
+  z-index: 0;
+}
+
+.blob-1 {
+  top: -200px;
+  right: -100px;
+  background: linear-gradient(180deg, rgba(47, 184, 255, 0.42) 31.77%, #5E9FFE 100%);
+}
+
+.blob-2 {
+  bottom: -300px;
+  left: -200px;
+  background: linear-gradient(180deg, rgba(255, 97, 175, 0.42) 31.77%, #FF61AF 100%);
+}
+
+/* Container */
+.campus-container {
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+}
+
+/* Cards & Sections */
+.campus-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.campus-section {
+  padding: 1.5rem;
+}
+
+/* Logo */
+.campus-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+.campus-logo i {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.campus-logo span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Headings */
+.campus-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.campus-subheading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+/* Navigation */
+.campus-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.campus-nav .nav-link {
+  color: var(--text-dark);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.campus-nav .nav-link i {
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.campus-nav .nav-link.active {
+  background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+  color: var(--text-light);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.campus-nav .nav-link:hover:not(.active) {
+  background: var(--glass-bg);
+  color: var(--accent);
+}
+
+/* Sidebar */
+.campus-sidebar {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  min-height: calc(100vh - 3rem);
+  padding: 1.5rem 1rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+/* Cards */
+.feature-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 1.5rem;
+  height: 100%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+.feature-card .card-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.feature-card .card-icon {
+  background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.feature-card .card-icon i {
+  font-size: 1.5rem;
+}
+
+/* Buttons */
+.campus-btn {
+  background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.campus-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.campus-btn-outline {
+  background: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.campus-btn-outline:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.campus-btn-danger {
+  border: 2px solid var(--error);
+  color: var(--error);
+}
+
+.campus-btn-danger:hover {
+  background: var(--error);
+  color: white;
+}
+
+.campus-btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.campus-btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Form Elements */
+.campus-form-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.campus-form-control {
+  padding: 1.25rem 1rem;
+  height: calc(3rem + 2px);
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  width: 100%;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.campus-form-control:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(63, 94, 251, 0.1);
+}
+
+.campus-form-floating {
+  position: relative;
+}
+
+.campus-form-floating > .campus-form-control {
+  height: calc(3.5rem + 2px);
+  padding: 1.25rem 1rem;
+}
+
+.campus-form-floating > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 1rem;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+  color: #555;
+}
+
+.campus-form-floating > .campus-form-control:focus ~ label,
+.campus-form-floating > .campus-form-control:not(:placeholder-shown) ~ label {
+  opacity: .65;
+  transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+/* Alerts */
+.campus-alert {
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.campus-alert-error {
+  background-color: rgba(252, 70, 107, 0.1);
+  color: var(--error);
+  border-left: 4px solid var(--error);
+}
+
+.campus-alert-success {
+  background-color: rgba(40, 167, 69, 0.1);
+  color: var(--success);
+  border-left: 4px solid var(--success);
+}
+
+.campus-alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: var(--warning);
+  border-left: 4px solid var(--warning);
+}
+
+.campus-alert-info {
+  background-color: rgba(23, 162, 184, 0.1);
+  color: var(--info);
+  border-left: 4px solid var(--info);
+}
+
+/* Tables */
+.campus-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 1.5rem;
+}
+
+.campus-table th, 
+.campus-table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.campus-table th {
+  font-weight: 600;
+  color: var(--accent);
+  border-bottom: 2px solid rgba(63, 94, 251, 0.1);
+}
+
+.campus-table td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.campus-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Badges */
+.campus-badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 50rem;
+}
+
+.campus-badge-primary {
+  background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+  color: white;
+}
+
+.campus-badge-outline {
+  background-color: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+/* Circles for background effect */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  animation: floatCircle 8s infinite;
+}
+
+@keyframes floatCircle {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
+    opacity: 0.8;
+  }
+}
+
+/* Utility Classes */
+.text-gradient {
+  background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-error {
+  color: var(--error);
+}
+
+.text-success {
+  color: var(--success);
+}
+
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid var(--glass-border);
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .campus-sidebar {
+    margin-bottom: 1.5rem;
+    min-height: auto;
+  }
+  
+  .blob {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .campus-section {
+    padding: 1rem;
+  }
+  
+  .campus-heading {
+    font-size: 1.5rem;
+  }
+  
+  .campus-subheading {
+    font-size: 1.2rem;
+  }
+  
+  .campus-btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+} 
