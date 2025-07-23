@@ -115,8 +115,8 @@
                 <div class="header-icon">
                     <i data-lucide="target"></i>
                 </div>
-                <h1 class="page-title">Higher Secondary Education</h1>
-                <p class="page-subtitle">Specialized streams preparing students for university education and professional careers</p>
+                <h1 class="page-title">Science Stream - Higher Secondary</h1>
+                <p class="page-subtitle">Comprehensive science education preparing students for medical, engineering, and research careers</p>
             </div>
         </div>
     </section>
@@ -126,17 +126,17 @@
         <div class="container">
             <div class="overview-content">
                 <div class="overview-text">
-                    <h2>Gateway to Higher Education</h2>
-                    <p class="lead">Our Higher Secondary Education program (Classes 11-12) offers specialized streams designed to prepare students for university admission and career success. With expert faculty, modern facilities, and comprehensive support, we ensure students are well-prepared for competitive examinations and future challenges.</p>
+                    <h2>Excellence in Science Education</h2>
+                    <p class="lead">Our Science Stream program (Classes 11-12) is designed to prepare students for medical, engineering, and research careers. With expert faculty, state-of-the-art laboratories, and comprehensive support, we ensure students are well-prepared for competitive examinations like JEE, NEET, and other entrance tests.</p>
                     
                     <div class="highlight-points">
                         <div class="point">
                             <div class="point-icon">
-                                <i data-lucide="award"></i>
+                                <i data-lucide="atom"></i>
                             </div>
                             <div class="point-content">
-                                <h4>Stream Specialization</h4>
-                                <p>Choose from Science, Commerce, or Arts streams based on interests and career aspirations.</p>
+                                <h4>Science Specialization</h4>
+                                <p>Focused curriculum in Physics, Chemistry, Mathematics, and Biology with practical laboratory experience.</p>
                             </div>
                         </div>
                         
@@ -145,18 +145,18 @@
                                 <i data-lucide="graduation-cap"></i>
                             </div>
                             <div class="point-content">
-                                <h4>University Preparation</h4>
-                                <p>Comprehensive preparation for entrance exams including JEE, NEET, CA, and other competitive exams.</p>
+                                <h4>Medical & Engineering Prep</h4>
+                                <p>Comprehensive preparation for JEE Main/Advanced, NEET, BITSAT, and other competitive entrance exams.</p>
                             </div>
                         </div>
                         
                         <div class="point">
                             <div class="point-icon">
-                                <i data-lucide="briefcase"></i>
+                                <i data-lucide="microscope"></i>
                             </div>
                             <div class="point-content">
-                                <h4>Career Guidance</h4>
-                                <p>Expert counseling and career guidance to help students make informed decisions about their future.</p>
+                                <h4>Research & Innovation</h4>
+                                <p>Hands-on research experience and innovation projects to develop scientific thinking and problem-solving skills.</p>
                             </div>
                         </div>
                     </div>
@@ -173,8 +173,8 @@
     <section class="streams-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Choose Your Stream</h2>
-                <p class="section-subtitle">Specialized programs tailored to your career aspirations</p>
+                <h2 class="section-title">Science Stream</h2>
+                <p class="section-subtitle">Specialized program for future doctors, engineers, and researchers</p>
             </div>
             
             <div class="streams-grid">
@@ -218,88 +218,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="stream-card commerce">
-                    <div class="stream-header">
-                        <div class="stream-icon">
-                            <i data-lucide="trending-up"></i>
-                        </div>
-                        <h3>Commerce Stream</h3>
-                        <p>For future business leaders and entrepreneurs</p>
-                    </div>
-                    
-                    <div class="stream-subjects">
-                        <h4>Core Subjects:</h4>
-                        <ul>
-                            <li>Accountancy</li>
-                            <li>Business Studies</li>
-                            <li>Economics</li>
-                            <li>Mathematics/Statistics</li>
-                            <li>English</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="career-paths">
-                        <h4>Career Paths:</h4>
-                        <div class="career-tags">
-                            <span>Business</span>
-                            <span>Finance</span>
-                            <span>Management</span>
-                            <span>Entrepreneurship</span>
-                        </div>
-                    </div>
-                    
-                    <div class="entrance-exams">
-                        <h4>Entrance Exam Prep:</h4>
-                        <div class="exam-tags">
-                            <span>CA Foundation</span>
-                            <span>CS Foundation</span>
-                            <span>BBA Entrance</span>
-                            <span>CLAT</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="stream-card arts">
-                    <div class="stream-header">
-                        <div class="stream-icon">
-                            <i data-lucide="book-open"></i>
-                        </div>
-                        <h3>Arts Stream</h3>
-                        <p>For creative minds and social thinkers</p>
-                    </div>
-                    
-                    <div class="stream-subjects">
-                        <h4>Core Subjects:</h4>
-                        <ul>
-                            <li>History</li>
-                            <li>Political Science</li>
-                            <li>Geography/Economics</li>
-                            <li>Psychology/Sociology</li>
-                            <li>English</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="career-paths">
-                        <h4>Career Paths:</h4>
-                        <div class="career-tags">
-                            <span>Civil Services</span>
-                            <span>Journalism</span>
-                            <span>Law</span>
-                            <span>Social Work</span>
-                        </div>
-                    </div>
-                    
-                    <div class="entrance-exams">
-                        <h4>Entrance Exam Prep:</h4>
-                        <div class="exam-tags">
-                            <span>UPSC</span>
-                            <span>CLAT</span>
-                            <span>Mass Communication</span>
-                            <span>BA Entrance</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -309,8 +227,8 @@
         <div class="container">
             <div class="exam-prep-content">
                 <div class="prep-header">
-                    <h2>Competitive Exam Excellence</h2>
-                    <p>Our specialized coaching and preparation programs ensure success in major entrance examinations.</p>
+                    <h2>Science Entrance Exam Excellence</h2>
+                    <p>Our specialized coaching and preparation programs ensure success in medical and engineering entrance examinations.</p>
                 </div>
                 
                 <div class="prep-features-grid">
@@ -318,37 +236,37 @@
                         <div class="feature-icon">
                             <i data-lucide="users"></i>
                         </div>
-                        <h4>Expert Faculty</h4>
-                        <p>IIT/IIM graduates and experienced professionals providing specialized coaching</p>
+                        <h4>Expert Science Faculty</h4>
+                        <p>IIT/NIT graduates and experienced professionals providing specialized coaching in Physics, Chemistry, Mathematics, and Biology</p>
                     </div>
                     
                     <div class="prep-feature">
                         <div class="feature-icon">
                             <i data-lucide="clock"></i>
                         </div>
-                        <h4>Flexible Timing</h4>
-                        <p>Integrated preparation during school hours without compromising regular studies</p>
+                        <h4>Integrated Preparation</h4>
+                        <p>Seamless integration of entrance exam preparation with regular science curriculum</p>
                     </div>
                     
                     <div class="prep-feature">
                         <div class="feature-icon">
                             <i data-lucide="target"></i>
                         </div>
-                        <h4>Mock Tests</h4>
-                        <p>Regular mock tests and performance analysis to track progress and improvement</p>
+                        <h4>Science Mock Tests</h4>
+                        <p>Regular mock tests for JEE, NEET, and BITSAT with detailed performance analysis</p>
                     </div>
                     
                     <div class="prep-feature">
                         <div class="feature-icon">
                             <i data-lucide="book"></i>
                         </div>
-                        <h4>Study Material</h4>
-                        <p>Comprehensive study materials and question banks for thorough preparation</p>
+                        <h4>Science Study Material</h4>
+                        <p>Comprehensive study materials, question banks, and laboratory manuals for thorough preparation</p>
                     </div>
                 </div>
                 
                 <div class="success-stats">
-                    <h3>Our Success Record</h3>
+                    <h3>Our Science Success Record</h3>
                     <div class="stats-grid">
                         <div class="stat-item">
                             <div class="stat-number">150+</div>
@@ -360,11 +278,11 @@
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">95%</div>
-                            <div class="stat-label">University Admissions</div>
+                            <div class="stat-label">Science University Admissions</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">25+</div>
-                            <div class="stat-label">Top Rankers</div>
+                            <div class="stat-label">Top Science Rankers</div>
                         </div>
                     </div>
                 </div>
@@ -376,8 +294,8 @@
     <section class="facilities-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">World-Class Facilities</h2>
-                <p class="section-subtitle">Advanced infrastructure supporting higher secondary education</p>
+                <h2 class="section-title">World-Class Science Facilities</h2>
+                <p class="section-subtitle">Advanced laboratories and infrastructure supporting science education</p>
             </div>
             
             <div class="facilities-grid">
@@ -427,20 +345,20 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Achieve Excellence?</h2>
-                <p>Join our Higher Secondary program and take the first step towards your dream university and career.</p>
-                <div class="cta-actions">
-                    <a href="../../index.php#contact" class="primary-btn">
-                        <span>Apply Now</span>
-                        <i data-lucide="arrow-right"></i>
-                    </a>
-                    <a href="../academic-programs/primary-education.php" class="secondary-btn">
-                        <span>View Primary Education</span>
-                        <i data-lucide="arrow-right"></i>
-                    </a>
+                            <div class="cta-content">
+                    <h2>Ready to Pursue Science Excellence?</h2>
+                    <p>Join our Science Stream and take the first step towards your dream medical or engineering career.</p>
+                    <div class="cta-actions">
+                        <a href="../../index.php#contact" class="primary-btn">
+                            <span>Apply for Science Stream</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="../academic-programs/primary-education.php" class="secondary-btn">
+                            <span>View Primary Education</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -475,7 +393,7 @@
                     <ul>
                         <li><a href="primary-education.php">Primary Education</a></li>
                         <li><a href="secondary-education.php">Secondary Education</a></li>
-                        <li><a href="higher-secondary.php">Higher Secondary</a></li>
+                        <li><a href="higher-secondary.php">Science Stream (11-12)</a></li>
                     </ul>
                 </div>
                 

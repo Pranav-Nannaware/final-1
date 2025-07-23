@@ -251,66 +251,106 @@
         </div>
     </section>
 
-    <!-- Achievements -->
-    <section class="exam-prep-section">
+    <!-- Faculty & Staff -->
+    <section class="faculty-section">
         <div class="container">
-            <div class="prep-header">
-                <h2>Our Achievements</h2>
-                <p>Recognition and milestones that reflect our century-old commitment to excellence</p>
+            <div class="section-header">
+                <h2 class="section-title">Our Faculty & Staff</h2>
+                <p class="section-subtitle">Dedicated educators committed to academic excellence and student development</p>
             </div>
             
-            <div class="prep-features-grid">
-                <div class="prep-feature">
-                    <div class="feature-icon">
-                        <i data-lucide="award"></i>
+            <div class="faculty-grid">
+                <div class="faculty-department">
+                    <h3><i data-lucide="book-open"></i> English</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mr. Harishchandra Joshi</div>
+                        <div class="faculty-member">Mr. Achyutrao Nimbalkar</div>
                     </div>
-                    <h4>95%+ SSC Results</h4>
-                    <p>Consistently achieving outstanding academic performance with SSC results above 95 percent, demonstrating our commitment to quality education.</p>
                 </div>
                 
-                <div class="prep-feature">
-                    <div class="feature-icon">
-                        <i data-lucide="heart"></i>
+                <div class="faculty-department">
+                    <h3><i data-lucide="book-open"></i> Marathi</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mrs. Varsha Kulkarni</div>
                     </div>
-                    <h4>Financial Support</h4>
-                    <p>Providing financial help to poor and needy students through collaboration with various NGOs, ensuring education is accessible to all.</p>
                 </div>
                 
-                <div class="prep-feature">
-                    <div class="feature-icon">
-                        <i data-lucide="map-pin"></i>
+                <div class="faculty-department">
+                    <h3><i data-lucide="atom"></i> Physics</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mrs. Eshani Godse</div>
+                        <div class="faculty-member">Mrs. Pooja Gonte</div>
+                        <div class="faculty-member">Mrs. Sadhana Dure</div>
+                        <div class="faculty-member">Mrs. Pratima Lonkar</div>
                     </div>
-                    <h4>Wide Accessibility</h4>
-                    <p>Serving students from Aundh, Sangvi, Baner, Pimpri, Chinchwad, Alandi, Talegaon, and Lonavala, making quality education accessible.</p>
                 </div>
                 
-                <div class="prep-feature">
-                    <div class="feature-icon">
-                        <i data-lucide="users"></i>
+                <div class="faculty-department">
+                    <h3><i data-lucide="flask-conical"></i> Chemistry</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mr. Suryabhan Bhosle</div>
+                        <div class="faculty-member">Mrs. Shweta Barne</div>
+                        <div class="faculty-member">Mrs. Priyanka Devkar</div>
+                        <div class="faculty-member">Mrs. Swati Dahiphale</div>
                     </div>
-                    <h4>600+ College Students</h4>
-                    <p>Four divisions of XI and XII with over 600 students pursuing higher secondary education in our well-equipped college.</p>
+                </div>
+                
+                <div class="faculty-department">
+                    <h3><i data-lucide="leaf"></i> Biology</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mrs. Sanjivani Pawar</div>
+                        <div class="faculty-member">Mr. Kishor Hinge</div>
+                        <div class="faculty-member">Mrs. Anuradha Edlabadkar</div>
+                        <div class="faculty-member">Mrs. Sanjivani Survase</div>
+                    </div>
+                </div>
+                
+                <div class="faculty-department">
+                    <h3><i data-lucide="calculator"></i> Mathematics</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mr. Shivaji Gite</div>
+                        <div class="faculty-member">Mr. Sunil Sanap</div>
+                        <div class="faculty-member">Ms. Bhagyashree Gawade</div>
+                        <div class="faculty-member">Mrs. Madhuri Chandak</div>
+                    </div>
+                </div>
+                
+                <div class="faculty-department">
+                    <h3><i data-lucide="monitor"></i> Information Technology</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mrs. Sonali Bargaje</div>
+                        <div class="faculty-member">Mrs. Rupali Shelar</div>
+                    </div>
+                </div>
+                
+                <div class="faculty-department">
+                    <h3><i data-lucide="cpu"></i> Computer Science</h3>
+                    <div class="faculty-list">
+                        <div class="faculty-member">Mr. Swapnil Kate</div>
+                        <div class="faculty-member">Mrs. Sayali Wadekar</div>
+                    </div>
                 </div>
             </div>
             
-            <div class="success-stats">
-                <h3>Our Impact in Numbers</h3>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">100+</div>
-                        <div class="stat-label">Years of Excellence</div>
+            <div class="support-staff-section">
+                <h3>Support Staff</h3>
+                <div class="staff-categories">
+                    <div class="staff-category">
+                        <h4><i data-lucide="wrench"></i> Lab Assistants</h4>
+                        <div class="staff-list">
+                            <div class="staff-member">Mr. Vikram Bulakhe</div>
+                            <div class="staff-member">Mr. Umesh Thakar</div>
+                            <div class="staff-member">Mrs. Shivanjali Bhosale</div>
+                        </div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number">95%+</div>
-                        <div class="stat-label">SSC Success Rate</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">600+</div>
-                        <div class="stat-label">College Students</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">4</div>
-                        <div class="stat-label">Science Divisions</div>
+                    
+                    <div class="staff-category">
+                        <h4><i data-lucide="settings"></i> Lab Attendants</h4>
+                        <div class="staff-list">
+                            <div class="staff-member">Mr. Rode Mohan</div>
+                            <div class="staff-member">Mr. Shinde Vishwanath</div>
+                            <div class="staff-member">Mr. Shankar Shekappa</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -362,7 +402,7 @@
                 
                 <div class="leadership-card">
                     <div class="leadership-image">
-                        <img src="../../images/gavali.jpg" alt="1990 Junior College">
+                        <img src="../../images/gavali1.jpg" alt="1990 Junior College">
                     </div>
                     <div class="leadership-content">
                         <h3>Dr. Gavali Sir</h3>

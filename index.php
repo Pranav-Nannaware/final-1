@@ -73,7 +73,10 @@
                 </div>
             </div>
         </div>
-
+                    <h1 style="text-align: center; font-size: 30px; font-weight: 600; color: #000; margin-top: 10px;">
+                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span> 
+                    </h1>
+                  
         <!-- Main Navigation -->
         <div class="main-nav">
             <div class="container">
@@ -172,7 +175,7 @@
             <div class="container">
                 <div class="hero-text">
                     <h1 class="hero-title">
-                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् – Elevate Thyself, By Thyself</span>
+                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span>
                     </h1>
                     <p class="hero-subtitle highlight">Inspire the power within – Self-effort is the path to true upliftment and liberation</p>
                     <div class="hero-actions" >
@@ -316,10 +319,10 @@
                     <p>Specialized streams preparing students for university education and professional careers.</p>
                     <ul class="program-features">
                         <li>Science Stream</li>
-                        <li>Commerce Stream</li>
-                        <li>Arts Stream</li>
+                        <!-- <li>Commerce Stream</li>
+                        <li>Arts Stream</li> -->
                     </ul>
-                    <a href="pages/academic-programs/higher-secondary.php" class="program-btn">
+                    <a href="pages/academic-programs/higher-secondary.php" class="program-btn" style="margin-top: 130px;">
                         <span>Learn More</span>
                         <i data-lucide="arrow-right"></i>
                     </a>
@@ -377,6 +380,75 @@
     <div class="wave-divider wave-divider-flip">
       <svg viewBox="0 0 1440 320"><path fill="#667eea" fill-opacity="1" d="M0,288L80,272C160,256,320,224,480,197.3C640,171,800,149,960,154.7C1120,160,1280,192,1360,208L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </div>
+
+  <!-- Leadership Team -->
+  <section class="leadership-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Leadership Team</h2>
+                <p class="section-subtitle">Visionary leaders driving educational excellence</p>
+            </div>
+            
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/VPS.jpg" alt="President Message">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Late G.C. Alias Abasaheb Anagal</h3>
+                        <h4>Founder & Visionary Educationist</h4>                      
+                        <p>Founder of Vidya Prasarini Sabha in 1923, Abasaheb Anagal dedicated his life to spreading education among the needy. With a vision of collective growth, he laid the foundation for an institute that now educates over 20,000 students across 25 branches.</p>
+                        
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/dr.aute.jpg" alt="1923 Foundation">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Dr. V.M. Auti</h3>
+                        <h4>President, Vidya Prasarini Sabha</h4>
+                        <p>Dr. Auti continues the legacy of founder Abasaheb Anagal with a vision of inclusive, value-based education. Under his leadership, VPS has expanded across Pune and Lonavala with a strong commitment to academic excellence.</p>
+                    </div>
+                </div>
+                
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/cp.jpg" alt="President Message">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Dr. Garware Madam</h3>
+                        <h4>Chairperson, Governing Council, VPS</h4>                      
+                        <p>The first female Chairperson of VPS, she has been instrumental in expanding into Engineering and Pharmacy education, upholding quality and accessibility for all students.</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/gavali1.jpg" alt="1990 Junior College">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Dr. Gavali Sir</h3>
+                        <h4>Secretary, Vidya Prasarini Sabha</h4>
+                        <p>A key leader in VPS’s journey into higher education, he has led the start of BCA, BCS, Engineering, and Pharmacy colleges, and helped earn a NAAC B+ grade.</p>
+                    </div>
+                </div>
+                
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/bhurke.jpg" alt="Modern Facilities">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Shri. Vijay Bhurke</h3>
+                        <h4>Joint Secretary, VPS</h4>
+                        <p>With a focus on all-round student development, he ensures state-of-the-art facilities, digital learning, and value-based education across VPS institutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Admissions Section -->
     <section class="admissions-section" id="admissions">
