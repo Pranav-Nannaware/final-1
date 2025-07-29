@@ -49,29 +49,29 @@
                 </div>
             </div>
         </div>
-
+                    
+                  
         <!-- Main Navigation -->
         <div class="main-nav">
             <div class="container">
                 <div class="nav-content">
                     <div class="logo-section">
                         <div class="logo-container">
-                            <div class="logo-circle">
-                                <span>BESJC</span>
-                            </div>
+                            <img src="../../images/college-logo.jpg" alt="Bharat English School & Jr. College Logo" class="college-logo">
                         </div>
                         <div class="academy-name">
                             <div class="primary-name">Bharat English School & Jr. College</div>
-                            <div class="secondary-name">Excellence • Innovation • Leadership</div>
+                            <div class="secondary-name">• Excellence • Innovation</div>
                         </div>
                     </div>
 
                     <nav class="navigation" id="navigation">
-                        <a href="../../index.php" class="nav-link">Home</a>
-                        <a href="../../index.php#about" class="nav-link">About</a>
-                        <a href="../../index.php#programs" class="nav-link">Programs</a>
-                        <a href="../../index.php#campus" class="nav-link">Campus</a>
-                        <a href="../../index.php#contact" class="nav-link">Contact</a>
+                        <a href="../../index.php#home" class="nav-link" data-section="home">Home</a>
+                        <a href="../../index.php#about" class="nav-link" data-section="about">About</a>
+                        <a href="../../index.php#programs" class="nav-link" data-section="programs">Programs</a>
+                        <a href="../../index.php#campus" class="nav-link" data-section="campus">Campus</a>
+                        <a href="../../index.php#admissions" class="nav-link" data-section="admissions" style="white-space: nowrap;">Admissions</a>
+                        <a href="../../index.php#contact" class="nav-link" data-section="contact">Contact</a>
                     </nav>
 
                     <div class="nav-actions">
@@ -85,10 +85,14 @@
                                 <span></span>
                             </div>
                         </button>
-                        <a href="../../admin-login.php" class="enrollment-btn" style="white-space: nowrap;">
+                        <button class="student-enrollment-btn" id="studentEnrollmentBtn" onclick="window.location.href='../../reg/index.php'" style="white-space: nowrap;">
+                            <span> 12th Student Enrollment</span>
+                            <i data-lucide="user-plus"></i>
+                        </button>
+                        <button class="enrollment-btn" id="enrollmentBtn" onclick="window.location.href='../../adminpage/login.php'" style="white-space: nowrap;">
                             <span>Admin Login</span>
                             <i data-lucide="arrow-right"></i>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -143,7 +147,7 @@
                                 <i data-lucide="trophy"></i>
                             </div>
                             <div class="point-content">
-                                <h4>95%+ SSC Results</h4>
+                                <h4>97%+ SSC & HSC Results</h4>
                                 <p>Consistently achieving outstanding academic performance with SSC results above 95 percent year after year.</p>
                             </div>
                         </div>
@@ -153,7 +157,7 @@
                                 <i data-lucide="graduation-cap"></i>
                             </div>
                             <div class="point-content">
-                                <h4>600+ College Students</h4>
+                                <h4>Successful Alumni 20,000+</h4>
                                 <p>Four divisions of XI and XII with excellent laboratories and experienced faculty serving students from across Pune region.</p>
                             </div>
                         </div>
@@ -167,47 +171,6 @@
         </div>
     </section>
 
-    <!-- Mission & Vision -->
-    <section class="curriculum-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Mission & Vision</h2>
-                <p class="section-subtitle">Guiding principles that drive our educational philosophy</p>
-            </div>
-            
-            <div class="curriculum-grid">
-                <div class="curriculum-card">
-                    <div class="card-icon">
-                        <i data-lucide="eye"></i>
-                    </div>
-                    <h3>Our Vision</h3>
-                    <p>To continue our century-old legacy of providing quality education while fostering patriotism, national values, and holistic development of students.</p>
-                </div>
-                
-                <div class="curriculum-card">
-                    <div class="card-icon">
-                        <i data-lucide="target"></i>
-                    </div>
-                    <h3>Our Mission</h3>
-                    <p>To provide quality and quantity education with special attention to physical, mental, and intellectual development, making students responsible citizens.</p>
-                </div>
-                
-                <div class="curriculum-card">
-                    <div class="card-icon">
-                        <i data-lucide="heart"></i>
-                    </div>
-                    <h3>Our Values</h3>
-                    <ul>
-                        <li>Patriotism & National Cause</li>
-                        <li>Quality Education</li>
-                        <li>Holistic Development</li>
-                        <li>Social Responsibility</li>
-                        <li>Academic Excellence</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Junior College Section -->
     <section class="learning-approach">
@@ -220,7 +183,7 @@
             <div class="facilities-grid">
                 <div class="facility-card">
                     <div class="facility-image">
-                        <img src="../../images/chem_lab-2.jpg" alt="Science Laboratories">
+                        <img src="../../images/chem_lab-2.jpg" alt="Chemistry Laboratory">
                     </div>
                     <div class="facility-content">
                         <h3>Well-Equipped Chemistry Lab</h3>
@@ -230,7 +193,27 @@
                 
                 <div class="facility-card">
                     <div class="facility-image">
-                        <img src="../../images/it-1.jpg" alt="Experienced Faculty">
+                        <img src="../../images/physics_lab.jpg" alt="Physics Laboratory">
+                    </div>
+                    <div class="facility-content">
+                        <h3>Advanced Physics Lab</h3>
+                        <p>State-of-the-art physics laboratory equipped with modern instruments, measurement devices, and experimental setups to help students understand fundamental physics concepts through hands-on learning.</p>
+                    </div>
+                </div>
+                
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="../../images/biology_lab.jpg" alt="Biology Laboratory">
+                    </div>
+                    <div class="facility-content">
+                        <h3>Modern Biology Lab</h3>
+                        <p>Comprehensive biology laboratory with microscopes, specimen collections, dissection equipment, and modern tools for conducting experiments in botany, zoology, and human anatomy.</p>
+                    </div>
+                </div>
+                
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="../../images/CS_lab.jpg" alt="Computer Science Laboratory">
                     </div>
                     <div class="facility-content">
                         <h3>Computer Science Lab</h3>
@@ -240,10 +223,10 @@
                 
                 <div class="facility-card">
                     <div class="facility-image">
-                        <img src="../../images/it-2.jpg" alt="Student Development">
+                        <img src="../../images/it-2.jpg" alt="Information Technology Laboratory">
                     </div>
                     <div class="facility-content">
-                        <h3> Information Technology Lab</h3>
+                        <h3>Information Technology Lab</h3>
                         <p>Modern IT lab designed for practical training in networking, databases, and emerging digital technologies.</p>
                     </div>
                 </div>
@@ -316,7 +299,7 @@
                 </div>
                 
                 <div class="faculty-department">
-                    <h3><i data-lucide="monitor"></i> Information Technology</h3>
+                    <h3><i data-lucide="monitor"></i> Information Technology (IT) </h3>
                     <div class="faculty-list">
                         <div class="faculty-member">Mrs. Sonali Bargaje</div>
                         <div class="faculty-member">Mrs. Rupali Shelar</div>
@@ -358,7 +341,7 @@
     </section>
 
     <!-- Leadership Team -->
-    <section class="leadership-section">
+    <!-- <section class="leadership-section">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Leadership Team</h2>
@@ -423,7 +406,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- CTA Section -->
     <section class="cta-section">
@@ -474,7 +457,7 @@
                 <div class="footer-section">
                     <h4>Academic Programs</h4>
                     <ul>
-                        <li><a href="../academic-programs/primary-education.php">Primary Education</a></li>
+                        <!-- <li><a href="../academic-programs/primary-education.php">Primary Education</a></li> -->
                         <li><a href="../academic-programs/secondary-education.php">Secondary Education</a></li>
                         <li><a href="../academic-programs/higher-secondary.php">Higher Secondary</a></li>
                     </ul>
@@ -482,7 +465,7 @@
                 
                 <div class="footer-section">
                     <h4>Quick Links</h4>
-                    <ul>
+                    <ul>    
                         <li><a href="../../index.php">Home</a></li>
                         <li><a href="index.php">About Us</a></li>
                         <li><a href="../../index.php#campus">Campus Life</a></li>

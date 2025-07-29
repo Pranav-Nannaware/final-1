@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Higher Secondary - Bharat English School & Jr. College</title>
     <meta name="description" content="Higher Secondary Education at Bharat English School & Jr. College - Specialized streams preparing students for university education and professional careers.">
+    <meta name="keywords" content="Pune education, academic excellence, leadership development, innovation, technology, arts, sports, Pune academy, best school Pune">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Higher Secondary - Bharat English School & Jr. College">
+    <meta property="og:description" content="Specialized streams preparing students for university education and professional careers">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,47 +38,51 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i data-lucide="phone"></i>
-                        <span>+91 20 2550 1234</span>
+                        <span> 020255360354</span>
                     </div>
                     <div class="contact-item">
                         <i data-lucide="mail"></i>
-                        <span>admissions@bharatenglish.edu.in</span>
+                        <span>bharatprincipal5@gmail.com
+                        </span>
                     </div>
                     <div class="contact-item">
                         <i data-lucide="map-pin"></i>
-                        <span>Koregaon Park, Pune, Maharashtra</span>
+                        <span>Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005
+                        </span>
                     </div>
-                    <div class="social-links">
+                    <!-- <div class="social-links">
                         <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
                         <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
                         <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
                         <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-
+                    <h1 style="text-align: center; font-size: 30px; font-weight: 600; color: #000; margin-top: 10px;">
+                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span> 
+                    </h1>
+                  
         <!-- Main Navigation -->
         <div class="main-nav">
             <div class="container">
                 <div class="nav-content">
                     <div class="logo-section">
                         <div class="logo-container">
-                            <div class="logo-circle">
-                                <span>BESJC</span>
-                            </div>
+                            <img src="../../images/college-logo.jpg" alt="Bharat English School & Jr. College Logo" class="college-logo">
                         </div>
                         <div class="academy-name">
                             <div class="primary-name">Bharat English School & Jr. College</div>
-                            <div class="secondary-name">Excellence • Innovation • Leadership</div>
+                            <div class="secondary-name">• Excellence • Innovation</div>
                         </div>
                     </div>
 
                     <nav class="navigation" id="navigation">
                         <a href="../../index.php" class="nav-link">Home</a>
-                        <a href="../../index.php#about" class="nav-link">About</a>
+                        <a href="../../pages/about/index.php" class="nav-link">About</a>
                         <a href="../../index.php#programs" class="nav-link">Programs</a>
                         <a href="../../index.php#campus" class="nav-link">Campus</a>
+                        <a href="../../index.php#admissions" class="nav-link" style="white-space: nowrap;">Admissions</a>
                         <a href="../../index.php#contact" class="nav-link">Contact</a>
                     </nav>
 
@@ -78,17 +90,21 @@
                         <button class="search-btn" aria-label="Search" id="searchBtn">
                             <i data-lucide="search"></i>
                         </button>
-                        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <!-- <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
                             <div class="hamburger">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </div>
+                        </button> -->
+                        <button class="student-enrollment-btn" id="studentEnrollmentBtn" onclick="window.location.href='../../reg/index.php'" style="white-space: nowrap;">
+                            <span> 12th Student Enrollment</span>
+                            <i data-lucide="user-plus"></i>
                         </button>
-                        <a href="../../admin-login.php" class="enrollment-btn" style="white-space: nowrap;">
+                        <button class="enrollment-btn" id="enrollmentBtn" onclick="window.location.href='../../adminpage/login.php'" style="white-space: nowrap;">
                             <span>Admin Login</span>
                             <i data-lucide="arrow-right"></i>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -194,7 +210,10 @@
                             <li>Chemistry</li>
                             <li>Mathematics/Biology</li>
                             <li>English</li>
+                            <li>Marathi</li>
+                            <li>Geography (Optional)</li>
                             <li>Computer Science (Optional)</li>
+                            <li>Information Technology (Optional)</li>
                         </ul>
                     </div>
                     
@@ -213,7 +232,6 @@
                         <div class="exam-tags">
                             <span>JEE Main/Advanced</span>
                             <span>NEET</span>
-                            <span>BITSAT</span>
                             <span>State CET</span>
                         </div>
                     </div>
@@ -265,7 +283,7 @@
                     </div>
                 </div>
                 
-                <div class="success-stats">
+                <!-- <div class="success-stats">
                     <h3>Our Science Success Record</h3>
                     <div class="stats-grid">
                         <div class="stat-item">
@@ -285,7 +303,7 @@
                             <div class="stat-label">Top Science Rankers</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -353,10 +371,10 @@
                             <span>Apply for Science Stream</span>
                             <i data-lucide="arrow-right"></i>
                         </a>
-                        <a href="../academic-programs/primary-education.php" class="secondary-btn">
-                            <span>View Primary Education</span>
-                            <i data-lucide="arrow-right"></i>
-                        </a>
+                            <!-- <a href="../academic-programs/primary-education.php" class="secondary-btn">
+                                <span>View Primary Education</span>
+                                <i data-lucide="arrow-right"></i>
+                            </a> -->
                     </div>
                 </div>
         </div>
@@ -367,10 +385,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <div class="logo-circle">
-                            <span>BESJC</span>
-                        </div>
+                <div class="footer-logo">
+                        <img src="../../images/college-logo.jpg" alt="Bharat English School & Jr. College Logo" class="footer-college-logo">
                         <div class="footer-brand">
                             <h4>Bharat English School & Jr. College</h4>
                             <p>Excellence • Innovation • Leadership</p>
@@ -379,49 +395,55 @@
                     <p class="footer-description">
                         Shaping future leaders through excellence in education, innovation in learning, and commitment to holistic development.
                     </p>
-                    <div class="social-links">
+                    <!-- <div class="social-links">
                         <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
                         <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
                         <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
                         <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
                         <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Academic Programs</h4>
-                    <ul>
-                        <li><a href="primary-education.php">Primary Education</a></li>
-                        <li><a href="secondary-education.php">Secondary Education</a></li>
-                        <li><a href="higher-secondary.php">Science Stream (11-12)</a></li>
-                    </ul>
+                    </div> -->
                 </div>
                 
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="../../index.php">Home</a></li>
+                        <li><a href="../../index.php#home">Home</a></li>
                         <li><a href="../../index.php#about">About Us</a></li>
+                        <li><a href="../../index.php#programs">Programs</a></li>
                         <li><a href="../../index.php#campus">Campus Life</a></li>
+                        <li><a href="../../index.php#admissions">Admissions</a></li>
                         <li><a href="../../index.php#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <!-- <li><a href="#">Primary Education</a></li> -->
+                        <li><a href="#">Secondary Education</a></li>
+                        <li><a href="#">Higher Secondary</a></li>
+                        <li><a href="#">Sports & Activities</a></li>
+                        <li><a href="#">Arts & Culture</a></li>
+                        <li><a href="#">Technology</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Contact Info</h4>
                     <div class="contact-info">
-                        <p><i data-lucide="map-pin"></i> 123 Excellence Road, Koregaon Park, Pune</p>
-                        <p><i data-lucide="phone"></i> +91 20 2550 1234</p>
-                        <p><i data-lucide="mail"></i> admissions@bharatenglish.edu.in</p>
+                        <p><i data-lucide="map-pin"></i> Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005</p>
+                        <p><i data-lucide="phone"></i>  02025536035</p>
+                        <p><i data-lucide="mail"></i> bharatprincipal5@gmail.com </p>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Bharat English School & Jr. College. All rights reserved.</p>
+                <p>&copy; 2025 Bharat English School & Jr. College. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
                 </div>
             </div>
         </div>

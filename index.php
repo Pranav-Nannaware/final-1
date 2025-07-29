@@ -54,22 +54,24 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i data-lucide="phone"></i>
-                        <span>+91 20 2550 1234</span>
+                        <span> 020255360354</span>
                     </div>
                     <div class="contact-item">
                         <i data-lucide="mail"></i>
-                        <span>admissions@bharatenglish.edu.in</span>
+                        <span>bharatprincipal5@gmail.com
+                        </span>
                     </div>
                     <div class="contact-item">
                         <i data-lucide="map-pin"></i>
-                        <span>Koregaon Park, Pune, Maharashtra</span>
+                        <span>Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005
+                        </span>
                     </div>
-                    <div class="social-links">
+                    <!-- <div class="social-links">
                         <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
                         <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
                         <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
                         <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -104,13 +106,13 @@
                         <button class="search-btn" aria-label="Search" id="searchBtn">
                             <i data-lucide="search"></i>
                         </button>
-                        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <!-- <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
                             <div class="hamburger">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </div>
-                        </button>
+                        </button> -->
                         <button class="student-enrollment-btn" id="studentEnrollmentBtn" onclick="window.location.href='reg/index.php'" style="white-space: nowrap;">
                             <span> 12th Student Enrollment</span>
                             <i data-lucide="user-plus"></i>
@@ -126,7 +128,7 @@
     </header>
 
     <!-- Search Overlay -->
-    <div class="search-overlay" id="searchOverlay">
+    <!-- <div class="search-overlay" id="searchOverlay">
         <div class="search-container">
             <div class="search-header">
                 <h3>Search</h3>
@@ -150,7 +152,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Admission Tab -->
     <div class="admission-tab" id="admissionTab" onclick="window.location.href='studreg/index.php'">
@@ -174,16 +176,7 @@
         <div class="hero-content">
             <div class="container">
                 <div class="hero-text">
-                    <h1 class="hero-title">
-                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span>
-                    </h1>
-                    <p class="hero-subtitle highlight">Inspire the power within – Self-effort is the path to true upliftment and liberation</p>
-                    <div class="hero-actions" >
-                        <a href="#programs" class="primary-btn" id="exploreBtn">
-                            <span>Explore Programs</span>
-                            <i data-lucide="arrow-right"></i>
-                        </a>
-                    </div>
+                    <p class="hero-subtitle highlight"></p>
                 </div>
                 
                 <!-- Removed hero-stats section -->
@@ -199,6 +192,75 @@
     <div class="wave-divider">
       <svg viewBox="0 0 1440 320"><path fill="#667eea" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,133.3C1120,107,1280,85,1360,74.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </div>
+
+    <!-- Leadership Team -->
+  <section class="leadership-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Under the guidance of Leadership Team</h2>
+                <p class="section-subtitle">Visionary leaders driving educational excellence</p>
+            </div>
+            
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/VPS.jpg" alt="President Message">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Late G.C. Alias Abasaheb Anagal</h3>
+                        <h4>Founder & Visionary Educationist</h4>                      
+                        <p>Founder of Vidya Prasarini Sabha in 1923, Abasaheb Anagal dedicated his life to spreading education among the needy. With a vision of collective growth, he laid the foundation for an institute that now educates over 20,000 students across 25 branches.</p>
+                        
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/dr.aute.jpg" alt="1923 Foundation">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Dr. V.M. Auti</h3>
+                        <h4>President, Vidya Prasarini Sabha</h4>
+                        <p>Dr. Auti continues the legacy of founder Abasaheb Anagal with a vision of inclusive, value-based education. Under his leadership, VPS has expanded across Pune and Lonavala with a strong commitment to academic excellence.</p>
+                    </div>
+                </div>
+                
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/cp.jpg" alt="President Message">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Dr. Garware Madam</h3>
+                        <h4>Chairperson, Governing Council, VPS</h4>                      
+                        <p>The first female Chairperson of VPS, she has been instrumental in expanding into Engineering and Pharmacy education, upholding quality and accessibility for all students.</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/gavali1.jpg" alt="1990 Junior College">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Dr. Gavali Sir</h3>
+                        <h4>Secretary, Vidya Prasarini Sabha</h4>
+                        <p>A key leader in VPS’s journey into higher education, he has led the start of BCA, BCS, Engineering, and Pharmacy colleges, and helped earn a NAAC B+ grade.</p>
+                    </div>
+                </div>
+                
+                <div class="leadership-card">
+                    <div class="leadership-image">
+                        <img src="images/bhurke.jpg" alt="Modern Facilities">
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Shri. Vijay Bhurke</h3>
+                        <h4>Joint Secretary, VPS</h4>
+                        <p>With a focus on all-round student development, he ensures state-of-the-art facilities, digital learning, and value-based education across VPS institutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- About Section -->
     <section class="about-section" id="about">
@@ -277,7 +339,7 @@
             </div>
             
             <div class="programs-grid">
-                <div class="program-card" data-category="primary">
+                <!-- <div class="program-card" data-category="primary">
                     <div class="program-icon">
                         <i data-lucide="book-open"></i>
                     </div>
@@ -292,7 +354,7 @@
                         <span>Learn More</span>
                         <i data-lucide="arrow-right"></i>
                     </a>
-                </div>
+                </div> -->
                 
                 <div class="program-card" data-category="secondary">
                     <div class="program-icon">
@@ -381,74 +443,7 @@
       <svg viewBox="0 0 1440 320"><path fill="#667eea" fill-opacity="1" d="M0,288L80,272C160,256,320,224,480,197.3C640,171,800,149,960,154.7C1120,160,1280,192,1360,208L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </div>
 
-  <!-- Leadership Team -->
-  <section class="leadership-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Leadership Team</h2>
-                <p class="section-subtitle">Visionary leaders driving educational excellence</p>
-            </div>
-            
-            <div class="leadership-grid">
-                <div class="leadership-card">
-                    <div class="leadership-image">
-                        <img src="images/VPS.jpg" alt="President Message">
-                    </div>
-                    <div class="leadership-content">
-                        <h3>Late G.C. Alias Abasaheb Anagal</h3>
-                        <h4>Founder & Visionary Educationist</h4>                      
-                        <p>Founder of Vidya Prasarini Sabha in 1923, Abasaheb Anagal dedicated his life to spreading education among the needy. With a vision of collective growth, he laid the foundation for an institute that now educates over 20,000 students across 25 branches.</p>
-                        
-                    </div>
-                </div>
-                <div class="leadership-card">
-                    <div class="leadership-image">
-                        <img src="images/dr.aute.jpg" alt="1923 Foundation">
-                    </div>
-                    <div class="leadership-content">
-                        <h3>Dr. V.M. Auti</h3>
-                        <h4>President, Vidya Prasarini Sabha</h4>
-                        <p>Dr. Auti continues the legacy of founder Abasaheb Anagal with a vision of inclusive, value-based education. Under his leadership, VPS has expanded across Pune and Lonavala with a strong commitment to academic excellence.</p>
-                    </div>
-                </div>
-                
-                <div class="leadership-card">
-                    <div class="leadership-image">
-                        <img src="images/cp.jpg" alt="President Message">
-                    </div>
-                    <div class="leadership-content">
-                        <h3>Dr. Garware Madam</h3>
-                        <h4>Chairperson, Governing Council, VPS</h4>                      
-                        <p>The first female Chairperson of VPS, she has been instrumental in expanding into Engineering and Pharmacy education, upholding quality and accessibility for all students.</p>
-                        
-                    </div>
-                </div>
-                
-                <div class="leadership-card">
-                    <div class="leadership-image">
-                        <img src="images/gavali1.jpg" alt="1990 Junior College">
-                    </div>
-                    <div class="leadership-content">
-                        <h3>Dr. Gavali Sir</h3>
-                        <h4>Secretary, Vidya Prasarini Sabha</h4>
-                        <p>A key leader in VPS’s journey into higher education, he has led the start of BCA, BCS, Engineering, and Pharmacy colleges, and helped earn a NAAC B+ grade.</p>
-                    </div>
-                </div>
-                
-                <div class="leadership-card">
-                    <div class="leadership-image">
-                        <img src="images/bhurke.jpg" alt="Modern Facilities">
-                    </div>
-                    <div class="leadership-content">
-                        <h3>Shri. Vijay Bhurke</h3>
-                        <h4>Joint Secretary, VPS</h4>
-                        <p>With a focus on all-round student development, he ensures state-of-the-art facilities, digital learning, and value-based education across VPS institutions</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+  
 
     <!-- Admissions Section -->
     <section class="admissions-section" id="admissions">
@@ -505,11 +500,11 @@
                 
                 <div class="admissions-actions">
                     <div class="action-buttons">
-                        <a href="reg/index.php" class="primary-btn">
+                        <a href="studreg/instructions.php" class="primary-btn">
                             <i data-lucide="book-open"></i>
                             <span>Read Instructions</span>
                         </a>
-                        <a href="reg/index.php" class="secondary-btn">
+                        <a href="studreg/registration.php" class="secondary-btn">
                             <i data-lucide="user-plus"></i>
                             <span>Start Application</span>
                         </a>
@@ -545,7 +540,7 @@
                             <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Mrs. Priya Sharma">
                             <div class="author-info">
                                 <h4>Mrs. Priya Sharma</h4>
-                                <span>Parent of Class 10 Student</span>
+                                <span>Parent of Class 11 Student</span>
                             </div>
                         </div>
                         <div class="rating">
@@ -562,13 +557,15 @@
                             <div class="quote-icon">
                                 <i data-lucide="quote"></i>
                             </div>
-                            <p>"The holistic approach to education here is remarkable. My daughter has grown not just academically but as a confident, compassionate individual."</p>
+                            <p>"We are thankful to Hinge Sir, Nirgundikar Madam, Havaldar madam, Bhosale Sir, Barne madam. Under their guidance we cracked entrance like NEET-UG and NEET-PG. Today we are glad to say we studied in Bharat English School and Jr. College to become future doctors."</p>
                         </div>
                         <div class="testimonial-author">
                             <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Mr. Rajesh Patel">
                             <div class="author-info">
-                                <h4>Mr. Rajesh Patel</h4>
-                                <span>Parent of Class 12 Student</span>
+                                <h4>Dr. Siddhant S. Gadhave</h4>
+                                <span>Batch No.:- 2015-2016
+                                      Profession : PG – IInd year in M.D. Pediatrics
+                                </span>
                             </div>
                         </div>
                         <div class="rating">
@@ -591,7 +588,7 @@
                             <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Mrs. Anjali Deshmukh">
                             <div class="author-info">
                                 <h4>Mrs. Anjali Deshmukh</h4>
-                                <span>Parent of Class 8 Student</span>
+                                <span>Parent of Class 12 Student</span>
                             </div>
                         </div>
                         <div class="rating">
@@ -633,7 +630,7 @@
                             <i data-lucide="map-pin"></i>
                             <div>
                                 <h4>Address</h4>
-                                <p>123 Excellence Road, Koregaon Park<br>Pune, Maharashtra 411001</p>
+                                <p>Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005<br>Pune, Maharashtra </p>
                             </div>
                         </div>
                         
@@ -641,7 +638,7 @@
                             <i data-lucide="phone"></i>
                             <div>
                                 <h4>Phone</h4>
-                                <p>+91 20 2550 1234</p>
+                                <p>02025536035</p>
                             </div>
                         </div>
                         
@@ -649,7 +646,7 @@
                             <i data-lucide="mail"></i>
                             <div>
                                 <h4>Email</h4>
-                                <p>admissions@bharatenglish.edu.in</p>
+                                <p>bharatprincipal5@gmail.com </p>
                             </div>
                         </div>
                     </div>
@@ -708,13 +705,13 @@
                     <p class="footer-description">
                         Shaping future leaders through excellence in education, innovation in learning, and commitment to holistic development.
                     </p>
-                    <div class="social-links">
+                    <!-- <div class="social-links">
                         <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
                         <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
                         <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
                         <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
                         <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <div class="footer-section">
@@ -732,7 +729,7 @@
                 <div class="footer-section">
                     <h4>Programs</h4>
                     <ul>
-                        <li><a href="#">Primary Education</a></li>
+                        <!-- <li><a href="#">Primary Education</a></li> -->
                         <li><a href="#">Secondary Education</a></li>
                         <li><a href="#">Higher Secondary</a></li>
                         <li><a href="#">Sports & Activities</a></li>
@@ -744,15 +741,15 @@
                 <div class="footer-section">
                     <h4>Contact Info</h4>
                     <div class="contact-info">
-                        <p><i data-lucide="map-pin"></i> 123 Excellence Road, Koregaon Park, Pune</p>
-                        <p><i data-lucide="phone"></i> +91 20 2550 1234</p>
-                        <p><i data-lucide="mail"></i> admissions@bharatenglish.edu.in</p>
+                        <p><i data-lucide="map-pin"></i> Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005</p>
+                        <p><i data-lucide="phone"></i>  02025536035</p>
+                        <p><i data-lucide="mail"></i> bharatprincipal5@gmail.com </p>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Bharat English School & Jr. College. All rights reserved.</p>
+                <p>&copy; 2025 Bharat English School & Jr. College. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
