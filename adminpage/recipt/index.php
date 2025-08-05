@@ -11,6 +11,37 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Include receipt logger
+require_once '../logs/receipt_logger.php';
+$logger = new ReceiptLogger($conn);
+
+// Function to convert number to words
+function convertToWords($number) {
+    $ones = array(
+        0 => '', 1 => 'One', 2 => 'Two', 3 => 'Three', 4 => 'Four', 5 => 'Five', 6 => 'Six',
+        7 => 'Seven', 8 => 'Eight', 9 => 'Nine', 10 => 'Ten', 11 => 'Eleven', 12 => 'Twelve',
+        13 => 'Thirteen', 14 => 'Fourteen', 15 => 'Fifteen', 16 => 'Sixteen', 17 => 'Seventeen',
+        18 => 'Eighteen', 19 => 'Nineteen'
+    );
+    
+    $tens = array(
+        0 => '', 2 => 'Twenty', 3 => 'Thirty', 4 => 'Forty', 5 => 'Fifty', 6 => 'Sixty',
+        7 => 'Seventy', 8 => 'Eighty', 9 => 'Ninety'
+    );
+    
+    if ($number < 20) {
+        return $ones[$number];
+    } elseif ($number < 100) {
+        return $tens[intval($number / 10)] . ' ' . $ones[$number % 10];
+    } elseif ($number < 1000) {
+        return $ones[intval($number / 100)] . ' Hundred ' . convertToWords($number % 100);
+    } elseif ($number < 100000) {
+        return convertToWords(intval($number / 1000)) . ' Thousand ' . convertToWords($number % 1000);
+    } else {
+        return convertToWords(intval($number / 100000)) . ' Lakh ' . convertToWords($number % 100000);
+    }
+}
+
 // Fee structures
 $fees_aided = array(
     "HSC EXAM FEES" => 1000,
@@ -86,6 +117,19 @@ if ($_POST) {
             // Check if receipt generation is requested
             if (isset($_POST['generate_receipt']) && $total_amount > 0) {
                 $receipt_generated = true;
+                
+                // Log the receipt generation
+                $amount_in_words = ucfirst(trim(convertToWords($total_amount))) . ' rupees only';
+                $log_result = $logger->logReceiptGeneration(
+                    $selected_student,
+                    $selected_components,
+                    $total_amount,
+                    $amount_in_words
+                );
+                
+                // Store log result for potential use
+                $log_success = $log_result['success'] ?? false;
+                $receipt_id = $log_result['receipt_id'] ?? null;
             }
         }
     }
@@ -702,31 +746,6 @@ if ($_POST) {
             <div class="receipt-amount-words">
                 <strong>Amount in words:</strong><br>
                 <?php 
-                function convertToWords($number) {
-                    $ones = array(
-                        0 => '', 1 => 'One', 2 => 'Two', 3 => 'Three', 4 => 'Four', 5 => 'Five', 6 => 'Six',
-                        7 => 'Seven', 8 => 'Eight', 9 => 'Nine', 10 => 'Ten', 11 => 'Eleven', 12 => 'Twelve',
-                        13 => 'Thirteen', 14 => 'Fourteen', 15 => 'Fifteen', 16 => 'Sixteen', 17 => 'Seventeen',
-                        18 => 'Eighteen', 19 => 'Nineteen'
-                    );
-                    
-                    $tens = array(
-                        0 => '', 2 => 'Twenty', 3 => 'Thirty', 4 => 'Forty', 5 => 'Fifty', 6 => 'Sixty',
-                        7 => 'Seventy', 8 => 'Eighty', 9 => 'Ninety'
-                    );
-                    
-                    if ($number < 20) {
-                        return $ones[$number];
-                    } elseif ($number < 100) {
-                        return $tens[intval($number / 10)] . ' ' . $ones[$number % 10];
-                    } elseif ($number < 1000) {
-                        return $ones[intval($number / 100)] . ' Hundred ' . convertToWords($number % 100);
-                    } elseif ($number < 100000) {
-                        return convertToWords(intval($number / 1000)) . ' Thousand ' . convertToWords($number % 1000);
-                    } else {
-                        return convertToWords(intval($number / 100000)) . ' Lakh ' . convertToWords($number % 100000);
-                    }
-                }
                 echo ucfirst(trim(convertToWords($total_amount))) . ' rupees only';
                 ?>
             </div>
@@ -747,6 +766,19 @@ if ($_POST) {
         <div style="text-align: center; margin: 20px 0;" class="no-print">
             <button onclick="window.print()" class="btn">Print Receipt</button>
             <a href="receipt_generator.php" class="btn" style="text-decoration: none;">Generate New Receipt</a>
+            
+            <?php if (isset($log_success) && $log_success): ?>
+            <div style="background-color: #d4edda; color: #155724; padding: 15px; border-radius: 5px; margin-top: 15px; border: 1px solid #c3e6cb;">
+                <i class="fas fa-check-circle"></i> 
+                Receipt successfully logged with ID: <strong><?php echo htmlspecialchars($receipt_id); ?></strong>
+                <br><small>You can view this receipt in the <a href="../logs/view_logs.php" style="color: #155724; text-decoration: underline;">Receipt Logs</a> section.</small>
+            </div>
+            <?php elseif (isset($log_success) && !$log_success): ?>
+            <div style="background-color: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin-top: 15px; border: 1px solid #f5c6cb;">
+                <i class="fas fa-exclamation-triangle"></i> 
+                Receipt generated but logging failed. Please contact administrator.
+            </div>
+            <?php endif; ?>
         </div>
         <?php endif; ?>
     </div>

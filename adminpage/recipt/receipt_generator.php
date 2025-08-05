@@ -11,6 +11,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Include receipt logger
+require_once '../logs/receipt_logger.php';
+$logger = new ReceiptLogger($conn);
+
 // Fee structures
 $fees_aided = array(
     "HSC EXAM FEES" => 1000,
@@ -77,6 +81,32 @@ if ($_POST) {
             // Check if receipt generation is requested
             if (isset($_POST['generate_receipt']) && $total_amount > 0) {
                 $receipt_generated = true;
+                
+                // Log the receipt generation
+                $fee_components_data = [];
+                foreach ($selected_components as $component) {
+                    if (isset($fee_structure[$component])) {
+                        $fee_components_data[$component] = $fee_structure[$component];
+                    }
+                }
+                
+                // Convert amount to words
+                $amount_in_words = convertToWords($total_amount);
+                
+                // Log the receipt generation
+                $log_result = $logger->logReceiptGeneration(
+                    $selected_student,
+                    $fee_components_data,
+                    $total_amount,
+                    $amount_in_words
+                );
+                
+                if ($log_result['success']) {
+                    $receipt_id = $log_result['receipt_id'];
+                    $log_id = $log_result['log_id'];
+                } else {
+                    error_log("Failed to log receipt generation: " . $log_result['error']);
+                }
             }
         }
     }

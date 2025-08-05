@@ -177,6 +177,7 @@ $admin_info = get_admin_info();
         .admin-icon { background: #3498db; }
         .receipt-icon { background: #e74c3c; }
         .student-icon { background: #2ecc71; }
+        .logs-icon { background: #9b59b6; }
 
         .module-card h3 {
             font-size: 1.3rem;
@@ -375,6 +376,25 @@ $admin_info = get_admin_info();
                 </ul>
                 <a href="studmanage/index.php" class="btn">
                     <i class="fas fa-edit"></i> Manage Students
+                </a>
+            </div>
+
+            <!-- Receipt Logs Module -->
+            <div class="module-card">
+                <div class="module-icon logs-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Receipt Generation Logs</h3>
+                <p>Comprehensive logging and audit system for all receipt generation activities with detailed tracking and reporting.</p>
+                <ul class="features-list">
+                    <li>Receipt Generation Tracking</li>
+                    <li>Admin Activity Monitoring</li>
+                    <li>Statistical Reports</li>
+                    <li>Data Export & Analytics</li>
+                    <li>Real-time Receipt Logging</li>
+                </ul>
+                <a href="logs/view_logs.php" class="btn">
+                    <i class="fas fa-chart-bar"></i> View Logs
                 </a>
             </div>
 
