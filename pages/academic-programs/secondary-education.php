@@ -60,7 +60,7 @@
             </div>
         </div>
                     <h1 style="text-align: center; font-size: 30px; font-weight: 600; color: #000; margin-top: 10px;">
-                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span> 
+                        <span class="title-line highlight">उद्धारेंदात्मनात्मानं </span> 
                     </h1>
                   
         <!-- Main Navigation -->
@@ -404,12 +404,12 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Shape Your Future with Us</h2>
-                <p>Join our Secondary Education program and build a strong foundation for higher studies and career success.</p>
+                <p>Join our  programs and build a strong foundation for higher studies and career success.</p>
                 <div class="cta-actions">
-                    <a href="../../index.php#contact" class="primary-btn">
+                    <!-- <a href="../../index.php#conta" class="primary-btn">
                         <span>Apply Now</span>
                         <i data-lucide="arrow-right"></i>
-                    </a>
+                    </a> -->
                     <a href="../academic-programs/higher-secondary.php" class="secondary-btn">
                         <span>View Higher Secondary</span>
                         <i data-lucide="arrow-right"></i>
@@ -459,8 +459,8 @@
                     <h4>Programs</h4>
                     <ul>
                         <!-- <li><a href="#">Primary Education</a></li> -->
-                        <li><a href="#">Secondary Education</a></li>
-                        <li><a href="#">Higher Secondary</a></li>
+                        <li><a href="../../pages/academic-programs/secondary-education.php">Secondary Education</a></li>
+                        <li><a href="../../pages/academic-programs/higher-secondary.php">Higher Secondary</a></li>
                         <li><a href="#">Sports & Activities</a></li>
                         <li><a href="#">Arts & Culture</a></li>
                         <li><a href="#">Technology</a></li>

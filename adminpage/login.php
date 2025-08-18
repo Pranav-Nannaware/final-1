@@ -328,24 +328,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         .back-to-home {
-            position: absolute;
+            position: fixed;
             top: 20px;
             left: 20px;
-            background: rgba(255,255,255,0.9);
-            color: #667eea;
-            padding: 10px 15px;
-            border-radius: 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 30px;
             text-decoration: none;
-            font-weight: 500;
-            font-size: 0.9rem;
+            font-weight: 700;
+            font-size: 1rem;
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
+            z-index: 1000;
+            border: 3px solid rgba(255,255,255,0.3);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.2), 0 0 20px rgba(102, 126, 234, 0.3);
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
         }
 
         .back-to-home:hover {
-            background: white;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.25), 0 0 25px rgba(102, 126, 234, 0.4);
+            border-color: rgba(255,255,255,0.5);
         }
 
         .back-to-home i {
@@ -399,6 +404,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             .login-header h1 {
                 font-size: 1.5rem;
+            }
+
+            .back-to-home {
+                top: 10px;
+                left: 10px;
+                padding: 12px 18px;
+                font-size: 0.9rem;
+                border-radius: 25px;
             }
         }
 

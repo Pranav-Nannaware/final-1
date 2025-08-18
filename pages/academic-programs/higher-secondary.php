@@ -60,7 +60,7 @@
             </div>
         </div>
                     <h1 style="text-align: center; font-size: 30px; font-weight: 600; color: #000; margin-top: 10px;">
-                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span> 
+                        <span class="title-line highlight">उद्धारेंदात्मनात्मानं </span> 
                     </h1>
                   
         <!-- Main Navigation -->
@@ -367,7 +367,7 @@
                     <h2>Ready to Pursue Science Excellence?</h2>
                     <p>Join our Science Stream and take the first step towards your dream medical or engineering career.</p>
                     <div class="cta-actions">
-                        <a href="../../index.php#contact" class="primary-btn">
+                        <a href="../../studreg/index.php" class="primary-btn">
                             <span>Apply for Science Stream</span>
                             <i data-lucide="arrow-right"></i>
                         </a>
@@ -420,7 +420,7 @@
                     <h4>Programs</h4>
                     <ul>
                         <!-- <li><a href="#">Primary Education</a></li> -->
-                        <li><a href="#">Secondary Education</a></li>
+                        <li><a href="../../pages/academic-programs/secondary-education.php">Secondary Education</a></li>
                         <li><a href="#">Higher Secondary</a></li>
                         <li><a href="#">Sports & Activities</a></li>
                         <li><a href="#">Arts & Culture</a></li>

@@ -76,7 +76,7 @@
             </div>
         </div>
                     <h1 style="text-align: center; font-size: 30px; font-weight: 600; color: #000; margin-top: 10px;">
-                        <span class="title-line highlight">उद्धरेदाआत्मनात्मानम् </span> 
+                        <span class="title-line highlight">उद्धारेंदात्मनात्मानं </span> 
                     </h1>
                   
         <!-- Main Navigation -->

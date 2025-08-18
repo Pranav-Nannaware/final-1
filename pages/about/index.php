@@ -30,15 +30,15 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i data-lucide="phone"></i>
-                        <span>+91 20 2550 1234</span>
+                        <span>020255360354</span>
                     </div>
                     <div class="contact-item">
                         <i data-lucide="mail"></i>
-                        <span>admissions@bharatenglish.edu.in</span>
+                        <span>bharatprincipal5@gmail.com</span>
                     </div>
                     <div class="contact-item">
                         <i data-lucide="map-pin"></i>
-                        <span>Koregaon Park, Pune, Maharashtra</span>
+                        <span>Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005</span>
                     </div>
                     <div class="social-links">
                         <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
@@ -419,10 +419,10 @@
                         <span>Apply for Admission</span>
                         <i data-lucide="arrow-right"></i>
                     </a>
-                    <a href="../../index.php#programs" class="secondary-btn">
+                    <!-- <a href="../../index.php#programs" class="secondary-btn">
                         <span>Explore Programs</span>
                         <i data-lucide="arrow-right"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -434,9 +434,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <div class="logo-circle">
-                            <span>BESJC</span>
-                        </div>
+                        <img src="../../images/college-logo.jpg" alt="Bharat English School & Jr. College Logo" class="footer-college-logo">
                         <div class="footer-brand">
                             <h4>Bharat English School & Jr. College</h4>
                             <p>Excellence • Innovation • Leadership</p>
@@ -476,15 +474,15 @@
                 <div class="footer-section">
                     <h4>Contact Info</h4>
                     <div class="contact-info">
-                        <p><i data-lucide="map-pin"></i> 123 Excellence Road, Koregaon Park, Pune</p>
-                        <p><i data-lucide="phone"></i> +91 20 2550 1234</p>
-                        <p><i data-lucide="mail"></i> admissions@bharatenglish.edu.in</p>
+                        <p><i data-lucide="map-pin"></i> Survey No 19/2, TP Scheme, Near Police Ground & Akashwani Kendra, Pune University Road, Shivaji Nagar-411005</p>
+                        <p><i data-lucide="phone"></i> 020255360354</p>
+                        <p><i data-lucide="mail"></i> bharatprincipal5@gmail.com</p>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Bharat English School & Jr. College. All rights reserved.</p>
+                <p>&copy; 2025 Bharat English School & Jr. College. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>

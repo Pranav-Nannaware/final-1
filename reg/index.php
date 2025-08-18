@@ -16,7 +16,7 @@ $show_toast = !empty($error_message);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Registration Portal</title>
+    <title>12th Enrollment Portal</title>
     <link rel="stylesheet" href="assets/modern-theme.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
@@ -27,9 +27,9 @@ $show_toast = !empty($error_message);
             <div class="card-header">
                 <h1 class="card-title">
                     <i class="fas fa-graduation-cap"></i>
-                    Student Registration Portal
+                    12th Enrollment Portal
                 </h1>
-                <p class="card-subtitle">Welcome to the CMRIT Student Registration System</p>
+                <p class="card-subtitle">Welcome to the BESJC 12th Enrollment Portal</p>
             </div>
 
             <!-- Registration Options -->

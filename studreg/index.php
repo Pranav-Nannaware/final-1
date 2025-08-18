@@ -227,8 +227,8 @@ if (session_status() === PHP_SESSION_NONE) {
                                 <div class="d-flex align-items-center">
                                     <i class="bi bi-info-circle-fill me-3" style="color: #0dcaf0; font-size: 1.5rem;"></i>
                                     <div>
-                                        <h5 class="mb-1">Registration for Classes 11th & 12th</h5>
-                                        <p class="mb-0">We are now accepting applications for Higher Secondary Education (Classes 11th and 12th) for the academic year 2024-25.</p>
+                                        <h5 class="mb-1">Registration for Classes 11th & 12th Science </h5>
+                                        <p class="mb-0">We are now accepting applications for Higher Secondary Education (Classes 11th and 12th Science) for the academic year 2024-25.</p>
                                     </div>
                                 </div>
                             </div>
