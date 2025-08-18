@@ -3751,7 +3751,7 @@ section {
     grid-template-columns: 1fr;
   }
   .facility-image {
-    height: 200px;
+    height: 300px;
   }
 }
 
@@ -4015,7 +4015,7 @@ section {
     grid-template-columns: 1fr;
   }
   .leadership-image {
-    height: 160px;
+    height: 350px;
   }
 }
 

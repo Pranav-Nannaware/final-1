@@ -330,6 +330,33 @@
       <svg viewBox="0 0 1440 320"><path fill="#facc15" fill-opacity="1" d="M0,224L80,197.3C160,171,320,117,480,117.3C640,117,800,171,960,197.3C1120,224,1280,224,1360,224L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </div>
 
+<!-- Principal's Desk Section -->
+<section class="principal-desk-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Principal's Desk</h2>
+                <p class="section-subtitle">A message from our Principal</p>
+            </div>
+            <div class="principal-desk-content" style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+                <div class="principal-photo" style="flex: 0 0 160px;">
+                    <div style="width: 160px; height: 160px; background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%); border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.10); display: flex; align-items: center; justify-content: center; border: 2px dashed #ccc;">
+                        <span style="color: #888; font-size: 14px; text-align: center; font-weight: 500;">Photo<br>Placeholder</span>
+                    </div>
+                </div>
+                <div class="principal-message" style="flex: 1; min-width: 220px;">
+                    <h3 style="margin-bottom: 0.5rem; font-size: 1.3rem; font-weight: 700;">Dr. [Principal Name]</h3>
+                    <p style="font-size: 1.05rem; color: #444; line-height: 1.7;">
+                        Welcome to Bharat English School & Jr. College! Our mission is to nurture young minds, foster innovation, and empower students to become responsible global citizens. We believe in holistic development, academic excellence, and values-based education. Join us on this journey of growth and achievement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SVG Wave Divider -->
+    <div class="wave-divider wave-divider-flip">
+      <svg viewBox="0 0 1440 320"><path fill="#facc15" fill-opacity="1" d="M0,224L80,197.3C160,171,320,117,480,117.3C640,117,800,171,960,197.3C1120,224,1280,224,1360,224L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    </div>
+
     <!-- Programs Section -->
     <section class="programs-section" id="programs">
         <div class="container">
